@@ -1,0 +1,13 @@
+/.env   
+/store
+/App.css
+/fonts
+/icons
+/App.js
+/index.js
+/App.test.js
+/index.css
+/serviceWorker.js
+/setupTests.js
+/crm.sql
+/components
