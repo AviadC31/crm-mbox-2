@@ -16,16 +16,7 @@ app.use(function (req, res, next) {
 
 app.use(express.json())
 app.use(express.static('build'))
-// app.use("*", (req, res) => res.sendFile(path.resolve("build", "index.html")));
 
 app.use('/api/', api)
-// if(process.env.NODE_ENV === 'production'){
-//   app.use(express.static('client/build'))
-//   app.get('*',(req,res)=>{
-//     res.sendFile((path.join(__dirname, 'crmApp','build','index.html')))
-//   })
-// }
-
-
 
 app.listen(port, () => console.log(`server up and running on port ${port}`))
